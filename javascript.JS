@@ -4,15 +4,14 @@
 // console.error("this is console.error()");
 // console.table(["mohammad", "23" , "amman"]);
 
-
+sss;
 // console.log(typeof 50);
-// console.log(typeof "mohammad"); 
+// console.log(typeof "mohammad");
 // console.log(typeof true);
 // console.log(typeof {name:"mohammad", age:23});
 // console.log(typeof [1,2,3,4,5]);
 // console.log(typeof undefined);
 // console.log(typeof null);
-
 
 // var name="mohammad";
 
@@ -30,8 +29,6 @@
 
 // let title="elzero";
 
-
-
 // console.log(title);
 // let description="elzero web school";
 // let date="25/10";
@@ -44,8 +41,7 @@
 
 // document.write(card.repeat(4));
 
-// console.log("" + 10); 
-
+// console.log("" + 10);
 
 // console.log((100.8).toString());//return string
 
@@ -55,7 +51,7 @@
 // console.log(parseInt("100"));//return number
 // console.log(parseFloat("100.5"));//return number float
 
-// console.log(Number("100"));//return number              
+// console.log(Number("100"));//return number
 // console.log(Number("100.5"));//return number float
 // console.log(Number(true));
 // console.log(Number(false));
@@ -80,7 +76,6 @@
 // console.log(Math.pow(2,4));//16
 
 // console.log(Math.trunc(4.8));//4
-
 
 // //-------------------string methods----------------
 //  let myname = "  mohammad";
@@ -117,16 +112,12 @@
 // console.log(myname.includes("mma" , 4));//false
 
 // console.log(myname.startsWith("mo"));//true
-// console.log(myname.endsWith("mad"));//true  
+// console.log(myname.endsWith("mad"));//true
 
 // console.log(10 == "10");//true compare value only
 // console.log(10 === "10");//false compare value and type
 
-
-
 // //------------------conditionals-------------------
-
-
 
 // let hour = 2;
 // let student= true;
@@ -137,7 +128,6 @@
 // else if(hour>10 && hour<20){
 // console.log("good day");
 // }
-
 
 // if(hour<=10){
 //     console.log("good morning");
@@ -152,7 +142,6 @@
 //     console.log("good evening");
 // }
 
-
 // let aage=20;
 
 // switch(aage){
@@ -164,18 +153,16 @@
 //     case 20:
 //     console.log("age is 20");
 //     break;
-        
+
 //     case 30:
 //     console.log("age is 30");
-//     break;  
-    
+//     break;
+
 //     default:
 //     console.log("age is not 10 ,20 ,30");
 // }
 
-
 // //------------------arrays-------------------
-
 
 // let myfriends =["mohammad", "ahmad",["rami","samer"] , "ahmad" , "khaled"];
 // console.log(`my friends are ${myfriends}`);
@@ -188,16 +175,12 @@
 // myfriends.unshift("khaled"); //add element to the start of array
 // myfriends.push("leena"); //add element to the end of array
 
-
 // let first = myfriends.shift(); //remove first element from array and save it in variable
 // let last = myfriends.pop(); //remove last element from array and save it in variable
 
 // console.log(myfriends.indexOf("khaled"));//4
 // console.log(myfriends.lastIndexOf("ahmad"));//3
-// console.log(myfriends.lastIndexOf("khaled" , -2));//will search from index 3 to 4 
-
-
-
+// console.log(myfriends.lastIndexOf("khaled" , -2));//will search from index 3 to 4
 
 // let secondfriends =["mohammad", "ahmad",["rami","samer"] , "ahmad" , "khaled"];
 
@@ -205,25 +188,21 @@
 // console.log(secondfriends.lastIndexOf("ahmad"));
 
 // let numbers=[1,10,100,20,200,30,-90,-5];
-    
+
 // console.log(numbers.sort());
-// console.log(numbers.reverse());                                 
+// console.log(numbers.reverse());
 
 // let all=myfriends.concat(secondfriends, numbers);
 // console.log(all);
 // console.log(all.join(" - "));//return string
 
-
 //-------------------loops-------------------
-
-
 
 // let myfriends =["mohammad","ahmad",20,"rami","khaled",10];
 
-
 // for( let i=0; i<myfriends.length ; i++) {
 //     console.log(`My friends are ${myfriends[i]}`);
-    
+
 // }
 
 // for( let i=0; i<myfriends.length ; i++) {
@@ -243,9 +222,7 @@
 // }
 // console.log(onlystring);
 
-
 // //------ while loop
-
 
 // let i=0;
 // while(i<myfriends.length){
@@ -260,11 +237,7 @@
 //     a++;
 // } while (a<=3);
 
-
-
 //-------------------functions-------------------
-
-
 
 // function countyears(start=0 , end=0 , exclude)
 // {
@@ -288,7 +261,6 @@
 
 // console.log(sum(10,20,30,40,500));
 
-
 // // nested function
 // function sayhello(username, age){
 // let msg="hi"
@@ -300,7 +272,6 @@
 // }
 // console.log(sayhello("mohammad", 23));
 
-
 // //arrow function
 
 // let print = function(){
@@ -310,16 +281,12 @@
 
 // let print2 = (num)=>
 //  num*10;
-    
+
 // console.log(print2(6));
 
 //-------------------high order functions (map)-------------------
 
-
-
-
 //------------------objects-------------------
-
 
 // let car={
 //     type:"Fiat",
@@ -341,7 +308,6 @@
 //         }
 //     }
 
-
 // };
 
 // console.log(car.type);
@@ -349,7 +315,6 @@
 // console.log(car["idnumber"]['second']);
 
 // console.log(car.isactive() );
-
 
 // let user = new Object();
 
@@ -372,12 +337,9 @@
 // user2.name="rami";
 // user2.age=17;
 
-//let user3= Object.assign(user,user2)  
-
+//let user3= Object.assign(user,user2)
 
 //"use strict"; to make sure that we are writing a clear code.
-
-
 
 // // ------------------ select element----------------------------
 
@@ -393,27 +355,22 @@
 // background:blue;
 // color:green; `;
 
-
 // body.style.removeProperty(`color`);
-
-
 
 // let image =document.getElementById("image");
 // image.alt="skyphoto";
 // image.setAttribute("height" , "200px")
-// console.log(image.alt); 
-// console.log(image.attributes[1]); 
+// console.log(image.alt);
+// console.log(image.attributes[1]);
 // image.removeAttribute("width");
 // image.style.setProperty(`padding`,`80px`);
-
 
 // let containerr= document.getElementById("father");
 // containerr.outerHTML="<P>hello</P>";
 // console.log(containerr.outerHTML);
-// console.log(containerr.innerHTML);  
+// console.log(containerr.innerHTML);
 
 //---------Asynchronous vs Synchronous----------
-
 
 // console.log("1");
 // console.log("2");
@@ -425,13 +382,9 @@
 // console.log("2");
 // setTimeout(()=>console.log("operation2"),0);
 // console.log("3");
-
-
+//ssssss
 
 let myRequest = new XMLHttpRequest();
 myRequest.open("get", "https://api.github.com/users/octocat");
 myRequest.send();
 console.log(myRequest);
-
-
-
