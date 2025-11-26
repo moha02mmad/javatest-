@@ -388,3 +388,6 @@ let myRequest = new XMLHttpRequest();
 myRequest.open("get", "https://api.github.com/users/octocat");
 myRequest.send();
 console.log(myRequest);
+//this is the first change
+//this is a second change
+//third change
